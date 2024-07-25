@@ -39,6 +39,8 @@ export function startupApp() {
  */
 export const root = getAsyncLifecycle(() => import('./root.component'), options);
 
+export const newPage = getAsyncLifecycle(() => import('./new-page.component'), options);
+
 /**
  * The following are named exports for the extensions defined in this frontend modules. See the `routes.json` file to see how these are used.
  */
